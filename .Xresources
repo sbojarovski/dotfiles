@@ -1,0 +1,57 @@
+!URxvt.termName:         rxvt-unicode
+
+URxvt.saveLines:        4095
+
+!Disables the insanely annoying Ctrl+Shift shortcut that enters ISO14755 mode
+URxvt.iso14755:         False
+
+URxvt.font:                xft:DejaVuSansMono:pixelsize=13
+URxvt.boldFont:            xft:DejaVuSansMono:pixelsize=13:bold
+URxvt.italicFont:          xft:DejaVuSansMono:pixelsize=13:italic
+URxvt.boldItalicFont:      xft:DejaVuSansMono:pixelsize=13:bold:italic
+URxvt.letterSpace: -1
+
+URxvt*background: #232C31
+URxvt*foreground: #C5C8C6
+! black
+URxvt*color0: #2D3C46
+URxvt*color8: #425059
+! red
+URxvt*color1: #A54242
+URxvt*color9: #CC6666
+! green
+URxvt*color2: #8C9440
+URxvt*color10: #B5BD68
+! yellow
+URxvt*color3: #DE935F
+URxvt*color11: #F0C674
+! blue
+URxvt*color4: #5F819D
+URxvt*color12: #81A2BE
+! magenta
+URxvt*color5: #85678F
+URxvt*color13: #B294BB
+! cyan
+URxvt*color6: #5E8D87
+URxvt*color14: #8ABEB7
+! white
+URxvt*color7: #6C7A80
+URxvt*color15: #C5C8C6
+
+URxvt.internalBorder:      0
+URxvt.externalBorder:      0
+
+URxvt.scrollBar:           false
+
+URxvt*fading:              30
+
+URxvt.perl-ext-common:     matcher,resize-font
+
+!URxvt.keysym.F11:          perl:fullscreen:switch
+
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger:  C-Up
+
+URxvt.url-launcher:        /usr/bin/firefox
+URxvt.keysym.M-Delete:     perl:matcher:list
+URxvt.colorUL: #7780a1
